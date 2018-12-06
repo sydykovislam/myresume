@@ -2,6 +2,7 @@ body {
     padding: 0px;
     margin: 0px;
     font-family: 'Oxygen';
+    background-color: #F5F7F9;
 }
 .h1 {
     text-align: center;
@@ -11,18 +12,30 @@ body {
     color: white;
     background-color: #06529e;
 }
-.hr1 {
-    width: 90%;
-    margin: 20px auto;
-    
-}
 .content {
     display: flex;
-    background-color: #;
-}
-[class ^= "div"] {
-    width: 30%;
-    justify-content: space-around;
+    background-color: #F5F7F9;
     flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+[class ^= "res"] {
+    flex-basis: 31%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    flex-basis: 31%;
+    /* height: 200px; */
+    background-color: white;
+    font-weight: bold;
     
 }
+[class ^= "res"] h3 {
+    background-color: #06529e;
+    line-height: 40px;
+    margin: 0px;
+    padding-left: 17px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+
+}
+
